@@ -1,0 +1,63 @@
+.messages {
+    padding: 50px 0;
+
+    .container {
+        .title {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+
+        }
+
+        table {
+            width: 100%;
+
+            .userMssg.active {
+                background-color: #1dbf730f;
+            }
+
+            tr {
+                height: 50px;
+
+                &.headers {
+                    th {
+                        text-align: left;
+                        padding-left: 10px;
+                    }
+                }
+
+                td {
+                    padding: 10px;
+
+                    &:first-child {
+                        font-weight: 500;
+                    }
+
+                    &:nth-child(2),
+                    &:nth-child(2) {
+                        color: gray
+                    }
+                }
+
+                button {
+                    background-color: #1dbf73;
+                    color: white;
+                    font-weight: 500;
+                    border: none;
+                    padding: 10px;
+                    cursor: pointer;
+                }
+
+                cursor: pointer;
+
+                .mssg {
+                    width: 30px;
+                    height: 30px;
+                }
+
+
+            }
+        }
+    }
+}
